@@ -15,26 +15,35 @@ For time-series prediction, it is crucial to split the data in a way that respec
 ## 2. Comparative Table of RMSE for All Models
 
 ### **A. Sequential (Time-based) Split**
-
-| Model                        | Test RMSE |
-|------------------------------|-----------|
-| **Linear Regression (Baseline)** | 133.85    |
-| Decision Tree                | 159.43    |
-| Bagging Regressor            | 156.26    |
-| Gradient Boosting Regressor  | 123.52    |
-| **Stacking Regressor**           | 116.40    |
-
-### **B. Random Split**
-
-| Model                        | Test RMSE |
-|------------------------------|-----------|
-| Decision Tree                | 118.53    |
-| **Linear Regression (Baseline)** | 100.44    |
-| Bagging Regressor            | 112.36    |
-| Gradient Boosting Regressor  | 79.23     |
-| **Stacking Regressor**           | 63.67     |
+Here are your tables **sorted in order of performance (lowest RMSE to highest)** for both splits:
 
 ***
+
+### Sequential (Time-based) Split
+
+| Model                        | Test RMSE |
+|------------------------------|-----------|
+| **Stacking Regressor**           | **116.40**   |
+| Gradient Boosting Regressor  | 123.52    |
+| Linear Regression (Baseline) | 133.85    |
+| Bagging Regressor            | 156.26    |
+| Decision Tree                | 159.43    |
+
+***
+
+### Random Split
+
+| Model                        | Test RMSE |
+|------------------------------|-----------|
+| **Stacking Regressor**           | **63.67**    |
+| Gradient Boosting Regressor  | 79.23     |
+| Linear Regression (Baseline) | 100.44    |
+| Bagging Regressor            | 112.36    |
+| Decision Tree                | 118.53    |
+
+***
+
+
 
 ## 3. Key Findings
 
