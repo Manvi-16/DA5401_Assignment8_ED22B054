@@ -23,7 +23,7 @@ Here are your tables **sorted in order of performance (lowest RMSE to highest)**
 
 | Model                        | Test RMSE |
 |------------------------------|-----------|
-| **Stacking Regressor**           | **116.40**   |
+| **Stacking Regressor**           | **97.40**   |
 | Gradient Boosting Regressor  | 123.52    |
 | Linear Regression (Baseline) | 133.85    |
 | Bagging Regressor            | 156.26    |
@@ -33,13 +33,13 @@ Here are your tables **sorted in order of performance (lowest RMSE to highest)**
 
 ### Random Split
 
-| Model                        | Test RMSE |
-|------------------------------|-----------|
-| **Stacking Regressor**           | **63.67**    |
-| Gradient Boosting Regressor  | 79.23     |
-| Linear Regression (Baseline) | 100.44    |
-| Bagging Regressor            | 112.36    |
-| Decision Tree                | 118.53    |
+| Model                        | Test RMSE  |
+|------------------------------|------------|
+| Decision Tree                | 118.53     |
+| Linear Regression            | 100.44     |
+| Bagging Regressor            | 112.36     |
+| Gradient Boosting Regressor  | 56.07      |
+| **Stacking Regressor**       | **53.27**  |
 
 ***
 
